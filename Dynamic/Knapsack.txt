@@ -1,0 +1,24 @@
+def fastMaxVal(w, v, i, aW, m)
+try: return m[(i,aW)]
+except KeyError
+    if i == 0
+        if w[i] <= aW
+            m[(i, aW)] = v[i]
+            return v[i]
+        else
+            m[(i, aW)] == 0
+            return 0
+    without_i = fastMaxVal(w, v, i-1, aW, m)
+    if w[i] > aW
+        m[(i,aW)] = without_i
+        return without_i
+    else
+        with_i = v[i] + fastMaxVal(w,v,i-1,a[w]-w[i],m)
+    res = max(with_i, without-i)
+    m[i,aW] = res
+    return res
+end
+
+def maxVal0(w,v,i,aW)
+m = {}
+return fastMaxVal(w,v,i,aW,m)

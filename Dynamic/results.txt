@@ -1,0 +1,6 @@
+With Brute Force time taken for total work of 5 is 0.59 seconds
+With Brute Force time taken for total work of 10 is 120.29 seconds
+With Brute Force time taken for total work of 11 is 304.52 seconds
+With Dynamic Programming time taken for total work of 5 is 0.01 seconds
+With Dynamic Programming time taken for total work of 10 is 0.01 seconds
+With Dynamic Programming time taken for total work of 11 is 0.01 seconds
